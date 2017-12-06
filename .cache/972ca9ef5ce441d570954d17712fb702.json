@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nexports.__esModule = true;\n\n// Helper to call a given function, only once\nexports.default = function (cb) {\n  var called = false;\n\n  return function () {\n    if (!called) {\n      called = true;\n      cb();\n    }\n  };\n};\n\nmodule.exports = exports[\"default\"];"},"hash":"9caa29e7c374fd242976c7717e908911"}

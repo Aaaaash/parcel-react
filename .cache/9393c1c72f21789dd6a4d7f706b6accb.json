@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"'use strict';\n\nexports.__esModule = true;\n\nexports.default = function () {\n  return typeof __webpack_nonce__ !== 'undefined' ? __webpack_nonce__ : null;\n};\n/* eslint-disable camelcase, no-undef */\n\nmodule.exports = exports['default'];"},"hash":"bd71936ea4aa9184dac822031b7e1dfd"}
