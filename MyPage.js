@@ -2,9 +2,11 @@ import React, { PureComponent } from 'react';
 
 class MyPage extends PureComponent {
   render() {
+    const { info } = this.props;
+    console.log('render');
     return (
       <div>
-        this is my page;
+        my name is {info.name}, i am {info.age} years old!
       </div>
     );
   }
